@@ -21,7 +21,7 @@ warnings.filterwarnings('ignore')
 
 ###############################################################################################
 ## Load the xls data
-# To request acccess to the data, please contact Morteza Mahmoudi <>
+# To request acccess to the data, please contact Morteza Mahmoudi <mahmou22@msu.edu>
 ###############################################################################################
 xls = pd.ExcelFile('MM-Data_BUP_35Samples[3].xlsx')
 df = pd.read_excel(xls, 'Sheet1')
